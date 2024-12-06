@@ -80,10 +80,10 @@ A CLI tool to convert Trivy JSON security reports into visually appealing and de
 ## Example Output
 
 ### Severity Summary Chart
-![severity_chart](https://github.com/andres-dev4/trivy-html-report/blob/main/docs/photos/severity_chart.png?raw=True)
+![severity_chart](https://github.com/andres-dev4/trivy-html-report/blob/main/src/trivy_html_report_andresdev4/photos/severity_chart.png?raw=True)
 
 ### HTML Report Preview
-![Report](https://github.com/andres-dev4/trivy-html-report/blob/main/docs/photos/report.png?raw=True)
+![Report](https://github.com/andres-dev4/trivy-html-report/blob/main/src/trivy_html_report_andresdev4/photos/report.png?raw=True)
 
 
 ## Development
