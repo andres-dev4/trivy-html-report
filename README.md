@@ -26,6 +26,13 @@ A CLI tool to convert Trivy JSON security reports into visually appealing and de
 - Python 3.8 or higher
 - Trivy (to generate the JSON report)
 
+## Project on TestPyPI
+
+**For more details about the package and its versions, visit the** 
+project's TestPyPI page:
+
+https://test.pypi.org/project/trivy-html-report-andresdev4/
+
 ### Install
 
 1. Clone the repository:
