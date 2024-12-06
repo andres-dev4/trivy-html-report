@@ -1,23 +1,21 @@
 """Setup tool"""
 
 import os
-from setuptools import setup, find_packages
 import setuptools
-
-install_requires = open("requirements.txt").read().splitlines()
-
-
+from setuptools import setup, find_packages
 
 setuptools.setup(
-    name="trivy_html_report",
-    version="0.1.0",
-    packages=setuptools.find_packages(),
+    name="trivy-html-report-andresdev4",
+    version="0.1.5",
+    packages=setuptools.find_packages(where="src"),
     include_package_data=True,
-    install_requires=install_requires,
+    install_requires=["jinja2",
+                      "matplotlib",
+                      "python-dateutil"],
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
-            "trivy-to-html=trivy_html_report.main:main",
+            "trivy-html-report=trivy_html_report_andresdev4.main:main"
         ],
     },
     description="CLI tool to convert Trivy JSON reports to HTML.",

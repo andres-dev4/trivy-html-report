@@ -42,6 +42,17 @@ A CLI tool to convert Trivy JSON security reports into visually appealing and de
    ```bash
    pip install -e .
    ```
+
+## Using install via pip
+
+
+```bash
+    pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ trivy-html-report-andresdev4
+```
+**Reference:**  
+[Test PyPI - Trivy HTML Report (Andresdev4) v0.1.5](https://test.pypi.org/project/trivy-html-report-andresdev4/0.1.5/)
+
+
 ## Usage
    
    Run the following command to generate an HTML report from a Trivy JSON report:
@@ -69,10 +80,10 @@ A CLI tool to convert Trivy JSON security reports into visually appealing and de
 ## Example Output
 
 ### Severity Summary Chart
-![severity_chart](./docs/photos/severity_chart.png)
+![severity_chart](https://github.com/andres-dev4/trivy-html-report/blob/main/docs/photos/severity_chart.png?raw=True)
 
 ### HTML Report Preview
-![severity_chart](./docs/photos/report.png)
+![Report](https://github.com/andres-dev4/trivy-html-report/blob/main/docs/photos/report.png?raw=True)
 
 
 ## Development
@@ -98,4 +109,4 @@ Contributions are welcome! Please submit a pull request or open an issue if you 
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT License

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trivy_html_report_andresdev4"
+version = "0.1.5"
+authors = [
+  { name="Andrés Antonio", email="andres.antonio.lopez@outlook.com" },
+]
+description = "CLI tool to convert Trivy JSON reports to HTML."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { text = "MIT" }
+dependencies = [
+    "jinja2>=3.1.2",
+    "click>=8.0.0",
+    "matplotlib",
+    "python-dateutil>=2.9.0"
+]
+
+[project.scripts]
+trivy-to-html = "trivy_html_report_andresdev4.main:main"
+
+[project.urls]
+Homepage = "https://github.com/andres-dev4/trivy-html-report"
+Issues = "https://github.com/andres-dev4/trivy-html-report/issues"
+
+[tool.setuptools]
+packages = ["trivy_html_report_andresdev4"]
+package-dir = {"" = "src"}
